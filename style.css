@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+  align-items: start;
+    gap: 30px;
+   
+   
+  
+   
+    
+}
+button{
+   padding: 30px;
+}
+button:hover
+{
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: black;
+    color: white;
+}
+.icon{
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: a;
+    font-size: 8rem;
+   
+}
+.div1:hover .button1:hover ~ .icon
+{
+    transform: rotate(360deg);
+    transition: 7s ease;
+}
+
+.div1:hover .button2:hover ~ .icon{
+    transform:  rotate(360deg);
+    transition: 5s ease;
+}
+.div1:hover .button3:hover ~ .icon{
+    transform:  rotate(360deg);
+    transition: 3s ease;
+}
+.div1:hover .button4:hover ~ .icon{
+    transform:  rotate(360deg);
+    transition: 1s ease ;
+}
+
+
+
+
